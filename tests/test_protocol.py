@@ -9,7 +9,7 @@ from tests.canned_responses import make_sample_paper, make_stub_openai_client
 def llm_params():
     return {
         "language": "English",
-        "generation_kwargs": {"model": "gpt-4o-mini", "max_tokens": 16384},
+        "generation_kwargs": {"model": "gpt-4o-mini", "max_completion_tokens": 16384},
     }
 
 
